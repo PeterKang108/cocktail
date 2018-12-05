@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cate"
+            android:icon="@drawable/ic_sort_black_24dp"
+            android:title="Category" />
+        <item
+            android:id="@+id/nav_ingre"
+            android:icon="@drawable/ic_hourglass_empty_black_24dp"
+            android:title="Ingredients" />
+        <item
+            android:id="@+id/nav_glass"
+            android:icon="@drawable/ic_local_bar_black_24dp"
+            android:title="Glass" />
+        <item
+            android:id="@+id/nav_alochol"
+            android:icon="@drawable/ic_local_drink_black_24dp"
+            android:title="Alcohol" />
+    </group>
+
+    <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/nav_fav"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Favorite" />
+            <item
+                android:id="@+id/nav_create"
+                android:icon="@drawable/ic_playlist_add_black_24dp"
+                android:title="Create your own" />
+            <item
+                android:id="@+id/nav_search"
+                android:icon="@drawable/ic_search_black_24dp"
+                android:title="search" />
+        </menu>
+    </item>
+
+</menu>
+
